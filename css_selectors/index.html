@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selectors - Krishodh</title>
+    <style>
+        /* Element selector */
+        div {
+            background-color: antiquewhite;
+        }
+
+        /* class selector */
+        .header {
+            background-color: lightblue;
+        }
+
+        /* id selector */
+        #main-content {
+            background-color: lightgreen;
+        }
+
+        /* child selector */
+        footer > p {
+            background-color: lightcoral;
+        }
+
+        /* descendant selector */
+        main p {
+            color: white;
+        }
+
+        /* universal selector */
+        * {
+            font-family: Arial, sans-serif;
+            margin: 2px;
+            padding: 3px;
+        }
+
+        /* pseudo selector */
+        a:visited {
+            color: royalblue;
+        }
+        a:link {
+            color: darkcyan;
+        }
+        a:hover {
+            color: darkorange;
+        }
+        a:active {
+            background-color: lightgreen;
+        }
+        .children p:first-child {
+            color: magenta;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>CSS Selectors</h1>
+    </header>
+    <main>
+        <div id="main-content">
+            <p>CSS selectors are patterns used to select the elements you want to style.</p>
+        </div>
+        <article>
+            <a href="https:/Googlecom">Google</a>
+            <a href="https://w3schools.com">W3Schools</a>
+        </article>
+    </main>
+    <div class="children">
+        <p>I am first child.</p>
+        <p>I am second child.</p>
+    </div>
+    <footer>
+        <p>Footer content goes here.</p>
+    </footer>
+</body>
+</html>

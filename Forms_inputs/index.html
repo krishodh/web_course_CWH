@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning forms and inputs</title>
+</head>
+
+<body>
+    <h2>Learning forms and inputs</h2>
+    <form action="https://example.com/submit" method="POST">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" placeholder="Enter your name" required  autofocus />
+        </div>
+        <div>
+            <input type="radio" name="gender" id="male" value="male" required />
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female" required />
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <select name="country" id="country" required>
+                <option value="india">India</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>
