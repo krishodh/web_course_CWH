@@ -23,6 +23,33 @@
             line-height: 1.5;
             /* line-height 1.2 is default */
         }
+        h2 {
+            text-decoration: underline;
+            text-decoration-color: red;
+            text-decoration-thickness: 2px;
+            text-decoration-style: dashed;
+            text-indent: 20px;
+        }
+        .sim {
+            width: 50px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            word-break: break-all;
+            border: 2px solid black;
+            text-decoration: none;
+        }
+        .home {
+            color: red;
+        }
+        .service {
+            color: rgb(207, 29, 29);
+        }
+        .about {
+            color: rgba(221, 104, 104, 0.9);
+        }
+        .contact {
+            color: hsl(0, 60%, 78%);
+        }
     </style>
 </head>
 <body>
@@ -31,7 +58,17 @@
         <p class="text1">This is a paragraph.</p>
     </div>
     <span>
+        <h2>CSS - fonts, text, color Properties</h2>
+        <h2 class="sim">this should be the same</h2>
         <p class="text2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, exercitationem. Quod, mollitia distinctio! Eveniet nesciunt non ut quidem, excepturi facere libero aspernatur explicabo atque expedita. Exercitationem, totam! Consectetur nihil repudiandae eius eos voluptas tempore iste? Praesentium aliquid odio ducimus rem fugit qui tempore voluptates placeat veniam in ipsa ipsum ab deleniti delectus sed debitis earum, iusto saepe veritatis corrupti architecto nemo quis. Nihil odit in at a tempora nesciunt dolore quae reiciendis hic est et laborum unde nostrum eius dolorem molestiae ut sint voluptas quis, cum doloribus. Illum nam maiores architecto repellendus ducimus nesciunt dolor, eaque eos. Perferendis, amet maxime?</p>
     </span>
+    <div class="app">
+        <ul>
+            <li class="home">Home</li>
+            <li class="service">Services</li>
+            <li class="about">About</li>
+            <li class="contact">Contact us</li>
+        </ul>
+    </div>
 </body>
 </html>
