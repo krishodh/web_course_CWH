@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display properties - CSS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        div {
+            border: 2px solid cyan;
+            /* display: inline; */
+            /* it will not have effect for width and margin */
+            display: inline-block;
+            width: 350px;
+            margin: 20px;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        span {
+            border: 3px double blueviolet;
+            width: 200px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        i am a box
+    </div>
+    <div>also inline</div>
+    <span>
+        i am a good
+    </span>
+    <span>
+        boy
+    </span>
+</body>
+</html>
