@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadows and outlines - CSS</title>
+    <style>
+        .box {
+            border: 2px solid red;
+            padding: 20px;
+            /* box-shadow: h-offset v-offset blur spread color inset; */
+            box-shadow: 5px 10px 10px 5px rgb(99, 47, 47);
+        }
+        .text {
+            text-shadow: 2px 2px 3px blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        i am a div
+    </div>
+    <span>
+        <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis dicta rerum dolor ex, dolorum dolores commodi hic quibusdam voluptatem. Sed?
+        </p>
+    </span>
+</body>
+</html>
