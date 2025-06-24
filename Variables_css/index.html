@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --primary-color: darkcyan;
+            --secondary-color: cyan;
+        }
+
+        nav {
+            /* background-color: rgb(168, 168, 50); */
+            background-color: var(--primary-color);
+        }
+
+        ul {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        ul li {
+            list-style: none;
+            padding: 10px;
+        }
+
+        .container {
+            /* background-color: rgb(224, 224, 168); */
+            background-color: var(--secondary-color);
+        }
+
+        li:hover {
+            text-decoration: underline;
+            transition: 0.5s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, tempore modi ipsam, natus eos molestias recusandae, sit tempora molestiae ad at voluptate. Asperiores autem, excepturi iusto atque enim eum unde doloremque consequuntur illo, ipsum porro dolores? Quis itaque esse non fugit blanditiis officiis suscipit ipsum, id deleniti laudantium, dolorum expedita veritatis corporis mollitia consequuntur.
+    </div>
+</body>
+</html>
