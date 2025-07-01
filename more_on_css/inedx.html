@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on css selectors</title>
+    <style>
+        .box::selection {
+            color: blue;
+            background-color: black;
+        }
+
+        .boxes::before {
+            content: "Don't use more lorem";
+        }
+
+        input::placeholder {
+            color: aquamarine;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, ea!</div>
+        <div class="box">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, cupiditate! Ratione!</div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quam minima delectus!</div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. In ab obcaecati qui impedit.</div>
+        <input type="text" placeholder="Enter your name...">
+    </div>
+</body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designing a layout</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            text-decoration: none;
+            display: inline;
+            padding: 25px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            text-align: center;
+            color: white;
+        }
+
+        header {
+            height: 50px;
+            margin-top: 10px;
+            background-color: rgb(69, 0, 133);
+            display: flex;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            backdrop-filter: blur(5px);
+        }
+
+        header nav {
+            position: sticky;
+            top: 0px;
+            margin: 0;
+            padding: 0;
+        }
+
+         img {
+            position: fixed;
+            height: 60px;
+            width: auto;
+            margin-left: 95vw;
+            /* margin-top: 700px; */
+        }
+
+        /* .logo {
+            position: fixed;
+
+        } */
+
+        main {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgba(180, 129, 228, 0.771);
+        }
+
+        section {
+            margin: 10px;
+            padding: 10px;
+            /* background-color: azure; */
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 500px;
+            height: 600px;
+        }
+
+        .one {
+            background-color: beige;
+            font-weight: bolder;
+            word-spacing: 5px;
+            overflow: auto;
+        }
+
+        .two {
+            background-color: bisque;
+            font-weight: bolder;
+            word-spacing: 5px;
+            overflow: auto;
+        }
+
+        .main-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content {
+            border: 2px solid black;
+            border-radius: 20px;
+            text-align: center;
+            width: 50vw;
+            height: auto;
+            margin: 20px;
+            padding: 20px;
+            background-color: burlywood;
+        }
+
+        h2 {
+            font-family: "Poppins",  sans-serif;
+            font-size: 40px;
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+            height: 100px;
+            width: auto;
+            background-color: blanchedalmond;
+        }
+
+        footer ul li{
+            display: inline;
+            padding: 25px;
+            font-size: larger;
+        }
+
+        footer ul li a  {
+            text-decoration: none;
+            color: rgb(158, 0, 0);
+        }
+
+        .details {
+            font-size: 25px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="footer-nav">
+            <ul class="footer-ul">
+                <li class="footer_li"><a href="/">Home</a></li>
+                <li class="footer_li"><a href="/">Services</a></li>
+                <li class="footer_li"><a href="/">About us</a></li>
+                <li class="footer_li"><a href="/">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="one">
+            <h1>This is a heading 1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, obcaecati quis. Vero culpa doloribus velit laborum commodi praesentium quaerat veniam accusantium tempore expedita, placeat est aut sit similique. Aliquid maiores tenetur at autem, quaerat voluptatem dolor repudiandae, labore obcaecati itaque eos saepe minus, ut accusamus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quod vero soluta, temporibus deserunt, beatae distinctio ullam eius doloribus, modi explicabo consequuntur eaque? Rem nesciunt facere, earum labore molestiae enim consequatur, deleniti praesentium vitae veniam amet repellat dignissimos quod excepturi officiis dolorem assumenda, porro exercitationem odit incidunt ratione. Maxime a quam reiciendis corrupti iure nesciunt, ducimus veniam, in omnis hic temporibus officiis explicabo sint, nostrum rerum id consectetur ad aliquam atque itaque quibusdam. At iure pariatur molestiae animi accusantium officiis. Mollitia optio velit, vel iusto nobis vitae molestiae ipsum nemo earum autem similique ipsam dicta exercitationem doloremquete voluptate nemo, obcaecati facilis aperiam perferendis debitis maxime dolore! Harum omnis impedit exercitationem aperiam odit blanditiis dignissimos voluptatibus laudantium deserunt. Est dignissimos, dolor quo quisquam ut doloribus suscipit veritatis tenetur minima, repellat veniam harum accusantium! In adipisci, illo commodi fuga animi officiis, minima accusantium sint natus perspiciatis enim, fugit aliquid dolorum. Nulla voluptates ratione deserunt ipsam quae architecto quod tempore consequuntur.
+            </p>
+        </section>
+        <section class="two">
+            <h1>This is a heading 2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eius cupiditate corrupti sed rerum fugiat facere ducimus maxime minima doloremque quae, voluptatem dolor quos quisquam expedita tenetur. Vel earum aperiam animi ab dignissimos perspiciatis qui quia numquam doloremque maxime sint itaque, nisi suscipit inventore laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsum consequuntur eligendi nisi incidunt optio unde qui natus provident. Velit, architecto. Mollitia alias sunt quos, omnis autem magni perferendis et tenetur fuga consequuntur recusandae quam aliquid minus? Fugit asperiores omnis ut unde eaque optio exercitationem similique facilis repudiandae qui iste architecto nam, ducimus adipisci corporis amet perspiciatis, illo ipsum quaerat, illum eos doloremque a nihil. Mollitia perspiciatis delectus alias nulla labore nihil provident facilis voluptates vitae harum, voluptas quos illo! Id commodi amet, blanditiis sed doloribus maiores obcaecati quibusdam deserunt hic quaerat ipsa totam. Consectetur quod ullam quia odit fugit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, consequuntur fugiat doloribus facere aspernatur quam consectetur sunt molestias maiores! Veniam, in reiciendis. Eius, hic fugiat, quasi voluptas illo atque similique veniam maxime earum consequuntur sit. Illo, iusto blanditiis ab vero possimus laborum consequatur obcaecati ducimus deleniti quasi ea consectetur explicabo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem consectetur, impedit non ipsum, aut adipisci sequi est suscipit libero, earum omnis dolores architecto nostrum nobis tempora </p>
+        </section>
+    </main>
+    <div class="logo"><img src="logo.png" alt="logo"></div>
+    <div class="main-content">
+        <div class="content">
+            <h2>Welcome to my website designed by KING MAKER KRISHODH</h2>
+        </div>
+    </div>
+    
+    <footer>
+        <ul>
+            <li><a href="https://www.google.com" target="_blank">Google</a></li>
+            <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+        </ul>
+        <p class="details">&copy;copyrights are reserved by Krishodh</p>
+    </footer>
+</body>
+</html>
